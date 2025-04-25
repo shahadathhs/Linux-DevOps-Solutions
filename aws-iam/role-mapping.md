@@ -103,6 +103,7 @@ Open Optional > group Name > <place the name of the group specified in the .yaml
 20. Click next, open Access policies > Policy name: AmazonEKSAdminPolicy > Access scope: namespace - <namespace-you-would-like-the-user-to-access-only>
 21. Click apply.
 22. Now your perms have been applied successfully.
+23. Change kubectl context to new permission set corresponding profile (note: DO NOT FORGET TO ADD This permission set corresponding account's secret keys in your credentials file).
 
 # Validation
 1. to check pod logs
