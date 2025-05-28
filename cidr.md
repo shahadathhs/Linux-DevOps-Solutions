@@ -21,3 +21,7 @@ Format - Base ip/Subnet mask
 1. how big is your environment/ organisation/ no of systems
 2. should not overlap other cidrs in multiple vpc scenario
 
+# Deconstructing an ip:
+> eg: 172.31.0.0/16
+1. `172.31` is the network half. For instance, this particular range belongs to the `rfc1918` which means that it is only used in private networks and will not coincide with other ips in the public network. So safe to use.
+2. `0.0` describes the host, the actual system in the network.
